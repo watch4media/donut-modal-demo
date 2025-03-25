@@ -1,6 +1,17 @@
 {
   "name": "donut-modal-demo",
   "version": "0.0.0",
+  "description": "Interactieve Chart.js donutgrafiek met custom tooltip en PrimeNG modal dialog in Angular 19.",
+  "author": "Watch4Media - Annemarie Hoose-Flohr <annemarie@watch4media.nl>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watch4media/donut-modal-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/watch4media/donut-modal-demo/issues"
+  },
+  "homepage": "https://github.com/watch4media/donut-modal-demo#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
