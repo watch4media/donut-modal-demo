@@ -1,0 +1,25 @@
+<main class="main">
+
+  <div style="width: 400px; margin: 2rem auto;">
+    <canvas id="donutChart" width="400" height="400"></canvas>
+    <div id="chartjs-tooltip" class="tooltip-box" style="display: none;"></div>
+  </div>
+
+  <p-dialog [(visible)]="showDialog" [modal]="true" [closable]="true" header="Details voor {{ dialogData }}"
+    [style]="{ width: '400px' }" [contentStyle]="{ 'padding': '1.5rem' }" [baseZIndex]="1100">
+
+    <div class="dialog-content">
+      <p class="dialog-intro">Onderstaande personen horen bij dit segment:</p>
+      <ul class="dialog-list">
+        <li *ngFor="let name of dialogNames">
+          <span class="avatar">{{ name.charAt(0) }}</span>
+          <span class="name">{{ name }}</span>
+        </li>
+      </ul>
+    </div>
+  </p-dialog>
+
+
+</main>
+
+<!-- <router-outlet /> -->
